@@ -1,0 +1,96 @@
+table {
+    border-collapse: collapse;
+  }
+
+  table td {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+  }
+
+  #c0 {
+    border-left: none;
+    border-top: none;
+  }
+  #c1 {
+    border-top: none;
+  }
+  #c2 {
+    border-right: none;
+    border-top: none;
+  }
+  #c3 {
+    border-left: none;
+   }
+   #c5 {
+    border-right: none;
+   }
+  #c6{
+    border-left: none;
+    border-bottom: none;
+  }
+  #c7 {
+   border-bottom: none;
+  }
+  #c8 {
+    border-right: none;
+    border-bottom: none;
+  }
+
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #root {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  table td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  td:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Color the cells with different players' tokens */
+  #root .playerX {
+    color: #ff3d00;
+  }
+  
+  #root .playerO {
+    color: #2979ff;
+  }
